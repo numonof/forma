@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url(../img/bag.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top:10px ;
+    padding-left: 30px;
+    padding-right: 30px;   
+}
+.contact-box{
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 600px;
+    padding: 25px;
+}
+.right{
+    width: 600px;
+}
+.title{
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 55px;
+letter-spacing: -0.520833px;
+color: #FFFFFF;
+margin-bottom: 25px;
+}
+.text-dec{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.btn{
+    padding: 17px 111px 17px 110px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.267857px;
+color: #FFFFFF;
+background: #5E54A4;
+box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+border-radius: 10px;
+}
+.btn span{
+    font-weight: bold;
+}
+.forma{
+    padding-top: 24px;
+}
+form{
+    width: 545px;
+    height: 470px;
+    padding: 40px 40px 40px 40px;
+    background: #FFFFFF;
+box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+border-radius: 10px;
+}
+.input-item{
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    margin:10px 0 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    box-shadow: 0px 8px 0px rgba(248, 246, 246, 0.147);
+    border-radius: 5px;
+}
+.input-item:hover{
+    border: 1px solid #5E54A4;
+box-sizing: border-box;
+border-radius: 5px;
+    
+}
+
+.input-btn{
+    padding: 15px 131px 15px 131px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 26px;
+letter-spacing: 1px;
+color: #FFFFFF;
+background: #38CC8B;
+border: 1px solid rgba(0, 0, 0, 0);
+box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+border-radius: 5px;
+}
+.input-btn:active{
+border: 1px solid rgba(0, 0, 0, 0);
+box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+}
+
+.butn{
+    padding-top: 15px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.butn p{
+    padding: 5px;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 26px;
+text-align: center;
+color: #BAB7D4;
+}
+.butn p span{
+    font-weight: 700;
+    color: rgba(255, 99, 71, 0.774);
+}
