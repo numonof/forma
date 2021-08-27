@@ -14,18 +14,18 @@ body{
 
     width: 1200px;
     margin: auto;
-    padding:25px ;
     padding-left: 30px;
     padding-right: 30px;   
     
 }
 .contact-box{
+    padding-top:50px ;
     display: flex;
     align-items: center;
 }
 .left{
     width: 600px;
-    padding: 25px;
+    padding:0 25px;
 }
 .right{
     width: 600px;
@@ -48,7 +48,8 @@ line-height: 26px;
 color: #FFFFFF;
 }
 .btn{
-    padding: 17px 111px 17px 110px;
+    text-decoration: none;
+    padding: 17px 112px 17px 112px;
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
@@ -70,6 +71,7 @@ border-radius: 10px;
 form{
     width: 545px;
     height: 470px;
+    margin-top: 15px;
     padding: 40px 40px 40px 40px;
     background: #FFFFFF;
 box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
@@ -84,6 +86,7 @@ border-radius: 10px;
     background: #FFFFFF;
     box-shadow: 0px 8px 0px rgba(248, 246, 246, 0.147);
     border-radius: 5px;
+    outline: none;
 }
 .input-item:hover{
     border: 2px solid #5E54A4;
@@ -127,7 +130,8 @@ line-height: 26px;
 text-align: center;
 color: #BAB7D4;
 }
-.butn p span{
+.butn p a{
+    text-decoration: none;
     font-weight: 700;
     color: rgba(255, 99, 71, 0.774);
 }
