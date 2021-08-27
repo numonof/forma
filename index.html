@@ -18,29 +18,33 @@
                 <p class="text-dec">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
             </div>
             <div class="right">
-                <button class="btn">  <span>Try it free 7 days</span> then $20/mo. thereafter</button>
+                <a href="#" class="btn">  <span>Try it free 7 days</span> then $20/mo. thereafter</a>
                 <div class="forma">
-                    <form action="GET">
+                    <form action="https://echo.htmlacademy.ru" method="POST">
                         <div class="input-filed">
-                            <label></label>
-                            <input class="input-item" type="text" placeholder="First Name">
+                            <label>
+                                <input class="input-item" type="text" name="Firstname" placeholder="First Name" required>
+                            </label>
                         </div>
                         <div class="input-filed">
-                            <label></label>
-                            <input class="input-item" type="text" placeholder="Last Name">
+                            <label>
+                                <input class="input-item" type="text" name="Last-name" placeholder="Last Name" required>
+                            </label>
                         </div>
                         <div class="input-filed">
-                            <label></label>
-                            <input class="input-item" type="email" placeholder="Email Addres">
+                            <label>
+                                <input class="input-item" type="email" name="email" placeholder="Email Addres" required>
+                            </label>
                         </div>
                         <div class="input-filed">
-                            <label></label>
-                            <input class="input-item" type="Pasword" placeholder="Password">
+                            <label>
+                                <input class="input-item" type="password" name="password" placeholder="Password" required>
+                            </label>
                         </div>
                         
                         <div class="butn" >
-                            <button class="input-btn ">CLAIM YOUR FREE TRIAL</button>
-                            <p>By clicking the button, you are agreeing to our <span> Terms and Services</span></p>
+                            <button class="input-btn" type="submit">CLAIM YOUR FREE TRIAL</button>
+                            <p>By clicking the button, you are agreeing to our <a href="#"> Terms and Services</a></p>
                         </div>
                     </form>
                 </div>
